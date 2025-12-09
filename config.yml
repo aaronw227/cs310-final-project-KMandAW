@@ -1,0 +1,7 @@
+tasks:
+  -name: Install Bagisto
+   docker pull webkul/bagisto:2.3.6
+   docker run -it -d -p 80:80 webkul/bagisto
+  -name: Install Grafana
+   docker run -d --name=grafana -p 3000:3000 grafana/grafana
+  -name: Set Up SSH for Developers
