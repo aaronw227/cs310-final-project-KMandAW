@@ -1,3 +1,4 @@
 #! /usr/bin/env bash
 
-ansible-playbook -K $@
+- ansible-playbook $@
++ ansible-playbook -K $@
