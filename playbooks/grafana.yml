@@ -1,0 +1,5 @@
+-name: Create Grafana Instance
+ tasks: 
+   -name: Pull Grafana Docker Image
+   
+   
