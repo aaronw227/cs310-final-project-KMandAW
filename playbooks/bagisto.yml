@@ -1,0 +1,6 @@
+-name: Install Bagisto
+ tasks: 
+   -name: Pull Bagisto Image
+    docker pull webkul/bagisto:2.3.6
+    -name: Run Container
+    docker run -it -d -p 80:80 webkul/bagisto:2.3.6
